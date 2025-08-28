@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confeitaria Delícias</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <style>
+        .welcome-box {
+            background: #fff0f6;
+            border-radius: 16px;
+            box-shadow: 0 2px 8px #ffd6e5;
+            padding: 18px 28px;
+            margin: 0 auto 24px auto;
+            max-width: 600px;
+            text-align: center;
+        }
+        nav.menu {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin-bottom: 18px;
+        }
+        nav.menu a {
+            color: #ff69b4;
+            font-weight: bold;
+            text-decoration: none;
+            padding: 8px 18px;
+            font-size: 1.1em;
+            border-radius: 8px;
+            background: #fff0f6;
+            box-shadow: 0 2px 8px #ffd6e5;
+            transition: color 0.2s, background 0.2s;
+        }
+        nav.menu a:hover {
+            color: #fff;
+            background: #d72660;
+            text-decoration: underline;
+        }
+        body {
+            background: linear-gradient(135deg, #ffe4ef 60%, #fff0f6 100%);
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background: linear-gradient(90deg, #ffd6e5 60%, #ffe4ef 100%);
+            border-radius: 0 0 32px 32px;
+            box-shadow: 0 4px 24px #ffd6e5;
+            padding-bottom: 16px;
+        }
+        header h1 {
+            color: #d72660;
+            font-size: 3.2em;
+            text-shadow: 2px 2px 12px #fff0f6, 0 0 8px #ffb6d5;
+            font-family: 'Pacifico', cursive, Arial, sans-serif;
+            font-weight: bold;
+            letter-spacing: 3px;
+            padding: 24px 0 8px 0;
+            text-align: center;
+        }
+        header p {
+            font-size: 1.3em;
+            color: #d72660;
+            background: #fff0f6;
+            border-radius: 12px;
+            padding: 10px 18px;
+            margin: 0 0 18px 0;
+            box-shadow: 0 2px 8px #ffd6e5;
+        }
+        header nav {
+            margin-top: 10px;
+        }
+        header nav a {
+            color: #ff69b4;
+            font-weight: bold;
+            text-decoration: none;
+            padding: 0 12px;
+            font-size: 1.15em;
+            border-radius: 8px;
+            background: #fff0f6;
+            box-shadow: 0 2px 8px #ffd6e5;
+            transition: color 0.2s, background 0.2s;
+            margin: 0 2px;
+        }
+        header nav a:hover {
+            color: #fff;
+            background: #d72660;
+            text-decoration: underline;
+        }
+        main {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #fff;
+            padding: 32px 24px;
+            border-radius: 24px;
+            box-shadow: 0 4px 24px #ffd6e5, 0 0 0 8px #ffe4ef;
+            border: 2px dashed #ff69b4;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 32px;
+            justify-content: center;
+        }
+        .card {
+            background: linear-gradient(120deg, #ffe4ef 70%, #fff0f6 100%);
+            border-radius: 18px;
+            box-shadow: 0 2px 12px #ffd6e5;
+            padding: 24px 18px;
+            width: 260px;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 24px #ff69b4;
+        }
+        .card-title {
+            font-size: 1.4em;
+            color: #d72660;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        .card-desc {
+            font-size: 1em;
+            color: #a8325a;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><span style="font-size:1.2em;filter:drop-shadow(0 0 4px #fff0f6);">🍰</span> Confeitaria Delícias <span style="font-size:1.2em;filter:drop-shadow(0 0 4px #fff0f6);">🎂</span></h1>
+        <div class="welcome-box">
+            <p>Bem-vindo à <b>Confeitaria Delícias</b>!</p>
+            <p>Descubra receitas, dicas e inspirações para deixar seus doces ainda mais saborosos.<br>
+            <span style="color:#ff69b4;font-weight:bold;">Aqui cada doce é feito com amor!</span></p>
+        </div>
+        <nav class="menu">
+            <a href="https://www.receitasnestle.com.br/categorias/confeitaria" target="_blank">Receitas de Confeitaria</a>
+            <a href="https://www.tudogostoso.com.br/categorias/101-confeitaria" target="_blank">Delícias Confeitaria</a>
+            <a href="https://www.tudogostoso.com.br/categorias/bolos-doces" target="_blank">Cardápio de Doces</a>
+            <a href="https://www.google.com/maps/search/confeitaria" target="_blank">Mapa da Localização</a>
+            <a href="sobre.html">Um pouco da nossa história</a>
+        </nav>
+    </header>
+    <main>
+        <div class="card">
+            <div class="card-title">Bolos Decorados</div>
+            <div class="card-desc">Bolos personalizados para festas e ocasiões especiais, feitos com ingredientes frescos e muito carinho.</div>
+        </div>
+        <div class="card">
+            <div class="card-title">Doces Finos</div>
+            <div class="card-desc">Uma seleção de doces sofisticados para encantar seu paladar e tornar seus eventos inesquecíveis.</div>
+        </div>
+        <div class="card">
+            <div class="card-title">Tortas & Salgados</div>
+            <div class="card-desc">Tortas doces e salgadas, ideais para qualquer momento do dia, com sabores irresistíveis.</div>
+        </div>
+        <div class="card">
+            <div class="card-title">Receitas & Dicas</div>
+            <div class="card-desc">Confira nossas receitas exclusivas e dicas para preparar doces incríveis em casa!</div>
+        </div>
+    </main>
+</body>
+</html>
+
